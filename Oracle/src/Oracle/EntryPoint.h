@@ -5,10 +5,15 @@
 extern Oracle::Application* Oracle::CreateApplication();
 
 int main(int argc, char** argv) {
-	std::printf("Oracle Engine");
+	Oracle::Log::Init();
+	OC_CORE_WARN("Initialized Oracle Log!");
+	int a = 23;
+	OC_INFO("Initialized Client Log! Var={0}", a);
+
 	auto app = Oracle::CreateApplication();
 	app->Run();
 	delete(app);
 }
 
 #endif // OC_PLATFORM_WINDOWS
+  
