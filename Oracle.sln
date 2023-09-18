@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{1FF5CA82-45C7-470B-810D-E0993CACA8F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Oracle", "Oracle\Oracle.vcxproj", "{CFCEA63A-3A66-4EF1-83D5-04EEC64C9F81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFCEA63A-3A66-4EF1-83D5-04EEC64C9F81}.Debug|x64.ActiveCfg = Debug|x64
+		{CFCEA63A-3A66-4EF1-83D5-04EEC64C9F81}.Debug|x64.Build.0 = Debug|x64
+		{CFCEA63A-3A66-4EF1-83D5-04EEC64C9F81}.Release|x64.ActiveCfg = Release|x64
+		{CFCEA63A-3A66-4EF1-83D5-04EEC64C9F81}.Release|x64.Build.0 = Release|x64
+		{1FF5CA82-45C7-470B-810D-E0993CACA8F0}.Debug|x64.ActiveCfg = Debug|x64
+		{1FF5CA82-45C7-470B-810D-E0993CACA8F0}.Debug|x64.Build.0 = Debug|x64
+		{1FF5CA82-45C7-470B-810D-E0993CACA8F0}.Release|x64.ActiveCfg = Release|x64
+		{1FF5CA82-45C7-470B-810D-E0993CACA8F0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7A1F4B8-A402-4A3E-9B8B-F552AB048290}
+	EndGlobalSection
+EndGlobal
